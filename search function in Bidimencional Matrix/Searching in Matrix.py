@@ -41,6 +41,6 @@ while True:
 
 result = searchingmatrix(matrix, number_to_find)
 if result is not None:
-    print("The number is in the position:", result)
+    print("The number is in the index:", result)
 else:
     print("The number was not found in the matrix.")
